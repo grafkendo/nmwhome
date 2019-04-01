@@ -1,0 +1,125 @@
+#sub-accordion-section-vogue-site-layout-section .description.customize-section-description {
+    background-color: #e2f1ff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 -12px 0 -10px;
+    padding: 15px 15px 16px;
+    font-size: 12px;
+}
+
+#customize-theme-controls #accordion-section-header_image .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-vogue-panel-layout .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-typography-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-website-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-social-section .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-vogue-plugin-support-section .accordion-section-title:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+#customize-controls .control-section .customize-section-title h3 {
+	color: inherit;
+}
+#accordion-section-vogue-site-seo-section {
+    margin: 8px 0 0;
+}
+#customize-controls .description {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+#accordion-section-vogue_premium a.button {
+    background-color: #006CC9;
+    color: #FFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    border: 0;
+    position: relative;
+    top: -2px;
+}
+#accordion-section-vogue_premium a.button:hover {
+    background-color: #0952A9;
+    color: #FFF;
+}
+.vogue-prem-tryout {
+    clear: both;
+    text-align: right;
+    font-size: 11px;
+    line-height: 11px;
+    text-decoration: none;
+    padding: 4px 0 0;
+}
+
+.kaira-note {
+    margin-top: 20px;
+}
+.kaira-note b {
+    font-weight: 500;
+    color: #006cc9;
+}
+.kaira-note-desc {
+    font-size: 11px;
+    color: rgb(142, 142, 142);
+}
+.hide {
+    display: none;
+}
+.vogue-note-invogue,
+.vogue-note-avogue {
+    display: block;
+}
+
+.vogue-upgrade-txt {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0 0;
+}
+#customize-control-vogue-header-layout .description {
+    font-size: 11px;
+    padding: 2px 0 5px;
+}
+#customize-control-vogue-header-layout .description b {
+    color: #006CC9;
+}
+#customize-control-vogue-note-fonts-one .kaira-note{
+    background-color: rgba(255, 0, 0, 0.08);
+    text-align: center;
+    border-radius: 4px;
+    margin: 0;
+    padding: 4px 0;
+}
+
+#customize-control-blogdescription,
+#customize-control-vogue-disable-google-fonts,
+#customize-control-vogue-seo-site-desc-tag,
+#customize-control-vogue-seo-page-title-tag,
+#customize-control-vogue-seo-blog-post-title-tag,
+#customize-control-vogue-site-tagline-lc,
+#customize-control-vogue-header-image-logo-max-width,
+#customize-control-vogue-heading-font-color,
+#customize-control-vogue-titlebar-centered,
+#customize-control-vogue-header-remove-topbar,
+#customize-control-vogue-header-layout,
+#customize-control-vogue-header-menu-text,
+#customize-control-vogue-blog-layout,
+#customize-control-vogue-blog-list-img-cut,
+#customize-control-vogue-footer-privacy-link,
+#customize-control-background_color,
+#customize-control-vogue-website-error-msg,
+#customize-control-vogue-secondary-color,
+#customize-control-vogue-body-font-color,
+#customize-control-vogue-website-head-no,
+#customize-control-vogue-footer-layout {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 0 25px;
+    margin-bottom: 20px;
+}
+#customize-control-vogue-wc-mobile-prod-full-width,
+#customize-control-vogue-slider-cats,
+#customize-control-vogue-blog-list-title-size,
+#customize-control-vogue-remove-single-pag,
+#customize-control-vogue-meta-slider-shortcode,
+#customize-control-vogue-footer-social-icon-size,
+#customize-control-vogue-slider-scroll-effect {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0 0;
+    margin-top: 20px;
+}

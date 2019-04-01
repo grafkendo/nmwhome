@@ -1,0 +1,13 @@
+Version Pro 1.0
+i) Intial version Release
+
+Version Pro 1.1
+i) Removed unwanted js files
+ii) Some css tweaks.
+
+Version Pro 1.2
+i) Added code to support WooCommerce product gallery
+ii) Update Font Awesome Icon verison
+iii) Changed services section code to support page builder
+
+

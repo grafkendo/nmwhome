@@ -1,0 +1,225 @@
+/*
+Theme Name:   Enrolled
+Theme URI:    https://codevibrant.com/wpthemes/enrolled/
+Author:       CodeVibrant
+Author URI:   https://codevibrant.com/
+Description:  Enrolled is the child theme of Enrollment which is a clean and modern WordPress Theme for all kinds of Educational center like School, College, University & Training center. It is perfect for any kind of Educational website. It is easy to use & has powerful features. Launch your institutional site with the Enrollment education WordPress theme!
+Version:      1.0.0
+License:      GNU General Public License v3 or later
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Template:     enrollment
+Text Domain:  enrolled
+Tags:         blog, education, portfolio, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, featured-image-header, translation-ready
+
+*/
+
+/* Header CSS */
+.home #masthead {
+    top: 0;
+}
+
+.home #masthead {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#masthead .cv-container {
+    background: none;
+}
+
+.site-description,
+#site-navigation ul li a,
+.search-main {
+    color: #fff;
+}
+
+#masthead .menu-search-wrapper {
+    padding: 1% 0;
+}
+
+.site-branding {
+    border-right: 1px solid #55a7ad;
+}
+
+.site-branding a {
+    font-size: 32px;
+}
+
+.site-branding .site-title {
+    line-height: 34px;
+    margin: 0;
+}
+
+#site-navigation ul.sub-menu li,
+#site-navigation ul.children li {
+    border-bottom: 1px solid #55a7ad;
+}
+#site-navigation ul.sub-menu {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.is-sticky #masthead,
+.is-sticky #site-navigation ul.sub-menu,
+#masthead {
+    background: #1a1a1a;
+}
+
+#site-navigation ul.sub-menu a {
+    color: #fff;
+}
+
+
+/* Slider CSS*/
+.slider-content-block {
+    width: 100%;
+    text-align: center;
+}
+
+.slider-overlay {
+    background: rgba(0, 33, 71, 0.4);
+}
+
+.slide-content {
+    width: 55%;
+    margin-left: 25%;
+}
+
+.single-slide {
+    text-align: center;
+}
+
+/*Couses CSS*/
+.enrollment_service .grid-items-wrapper .single-post-wrapper {
+    color: #333;
+}
+
+.team-wrapper .team-desc-wrapper {
+    color: #fff;
+}
+
+.enrollment_service .post-title a {
+    color: #000;
+}
+
+.enrollment_service .grid-items-wrapper .single-post-wrapper:first-child,
+.enrollment_service .grid-items-wrapper .single-post-wrapper:nth-child(3n) {
+    background: #f5f5f5 none repeat scroll 0 0;
+}
+
+.section-wrapper.enrollment-widget-wrapper.clearfix .enrollment_service .grid-items-wrapper .single-post-wrapper,
+.enrollment_service .grid-items-wrapper .single-post-wrapper:last-child {
+    background: #00bfbf;
+}
+
+.content-area .enrollment_service .post-title a:hover {
+    color: #265a5c;
+}
+
+/* widget tittle css*/
+.widget .enrollment-widget-wrapper .widget-title::before,
+.widget .enrollment-widget-wrapper .widget-title::after {
+    width: 70px;
+    height: 2px;
+    margin-left: -35px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.widget .enrollment-widget-wrapper .widget-title::before {
+    left: 45%;
+}
+
+.widget .enrollment-widget-wrapper .widget-title::after {
+    left: 55%;
+    bottom: -10px;
+}
+.widget .enrollment-widget-wrapper .widget-title {
+    font-size: 36px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.courses-block-wrapper {
+    text-align: center;
+}
+
+/* cta CSS*/
+.cta-content-wrapper .cta-btn-wrap :hover {
+    border-radius: 30px;
+    background: rgba(46, 167, 158, 0.5);
+}
+
+.team-title-wrapper {
+    background: rgba(69, 69, 69, 1);
+    width: 100%;
+    text-align: center;
+}
+/*Testimonial CSS*/
+.testimonial-name-wrap {
+    text-align: center;
+}
+
+.testimonial-content::before {
+    content: "\f0c0";
+    left: 8%;
+    top: 8%;
+}
+
+/*Founders Css*/
+.site-info .cv-container {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.single-post-wrapper .img-holder .team-desc-wrapper {
+    background: rgba(39, 197, 191, 0.8);
+}
+
+/*Footer CSS*/
+#colophon.has-bg-image {
+    background-position: center top;
+    background-size: cover;
+}
+
+#colophon.has-bg-image::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#colophon.has-bg-image #top-footer,
+#colophon.has-bg-image .site-info-wrapper {
+    position: relative;
+    z-index: 99;
+}
+.enrollment-copyright {
+	color:#00bfbf;
+ }
+ 
+/*menu toggle color css*/
+.menu-toggle {
+	color: #fff;
+}
+
+@media (max-width: 1200px) {
+.home #masthead {
+	background: #212121;
+}
+}
+
+@media (max-width: 850px) {
+#primary-menu{
+    background: #212121;
+}
+}
+
+@media (max-width: 768px) {
+.header-search-wrapper .search-main {
+	line-height: 67px;
+	margin-top: 0;
+}
+}

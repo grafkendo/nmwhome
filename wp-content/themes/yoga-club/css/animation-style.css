@@ -1,0 +1,14 @@
+.welcomebx, 
+#pagearea .container, 
+#classeswrap, 
+#section2 .container, 
+#section3 .one_half, 
+#section4 .container,
+#section5 .container,
+#section6 .container,
+#section7 .container,
+#section8 .container,
+#section9 .container, 
+#section10 .container{ 
+visibility:hidden;
+}
